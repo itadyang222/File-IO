@@ -850,7 +850,6 @@ two thirds vote of both Houses that the President is unable to discharge the
 powers and duties of his office, the Vice President shall continue to discharge
 the same as Acting President; otherwise, the President shall resume the powers
 and duties of his office.
-
 Amendment 26
 1. The right of citizens of the United States, who are eighteen years of age or
 older, to vote shall not be denied or abridged by the United States or by any
@@ -862,4 +861,16 @@ legislation.
 Amendment 27
 No law, varying the compensation for the services of the Senators and
 Representatives, shall take effect, until an election of Representatives shall
-have intervened.
+have intervened
+
+fname = "constituton.txt"
+f=open(fname, "r+")
+
+
+for line in f:
+    words = line.split()
+    num_words = len(words)+ num_words
+    for word in words:
+        i += word.count("p")
+
+print(i)
